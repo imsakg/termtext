@@ -8,7 +8,7 @@ posts = []
 top_items = Parser.get_beststories()
 
 for i, post in enumerate(Parser.get_item(top_items[0])):
-    posts.append(Post(post))
+    posts.append(Story(post))
     if i > 3:
         break
 
