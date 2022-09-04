@@ -1,0 +1,7 @@
+requests
+peewee
+rich
+pyfiglet
+textual
+term-image
+climage
